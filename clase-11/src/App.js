@@ -1,13 +1,20 @@
 import './App.css';
-import Image from './components/movies/movies';
+import Movies from './components/movies/movies';
 
+const myData = [
+  { Framework: "Bootstrap" },
+  { Framework: "Material" },
+  { Framework: "Tailwind" },
+  { Framework: "Next" }
+];
 
+const words = ["Pera", "Sandia", "Manzana", "Mandarina", "Naranja", "Ajo"];
 
 function App() {
 
   const filterResult = words.filter(word => word.length > 6);
 
-  const characterList = myData.map((element) => {
+  const myDataList = myData.map((element) => {
     return (<h2> {element.Framework} </h2>)
   });
 
