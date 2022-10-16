@@ -1,5 +1,5 @@
 import './App.css';
-import Characters from './components/movies/Characters';
+import Characters from './components/characters/Characters';
 
 const myData = [{
   "character": "Rainier Wolfcastle",
